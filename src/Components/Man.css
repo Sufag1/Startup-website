@@ -1,1 +1,62 @@
-M
+.mansits {
+    padding-top: 60px;
+    background-color: #FFFFFF;
+}
+
+.mansits-img {
+    text-align: center;
+    
+}
+
+
+.mansits-texts{
+    padding: 50px 20px 0px 30px;
+}
+
+.mansits-texts p {
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: #21252980;
+
+}
+
+.mansits-button {
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 16px;
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+    margin-left: 40px;
+    
+}
+
+
+@media (min-width: 1024px) {
+
+    .mansits {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .mansits-text-btn-div {
+        grid-column: 1;
+        grid-row: 1;
+        margin-left: 100px;
+    }
+
+    .mansits-img {
+        grid-column: 2;
+    }
+
+    .mansits-button-div {
+        grid-column: 1;
+    }
+}
