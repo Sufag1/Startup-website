@@ -14,7 +14,7 @@ A **startup website** is a modern, visually engaging site designed to showcase a
 The goal is to **attract interest, build trust, and convert visitors into customers or investors**. It's often clean, responsive, and built with tools like React, Next.js, or WordPress.
 
 ## 🚀 Live Demo
-🔗 [View Live Demo](https://recipe-website-6k81.onrender.com)
+🔗 [View Live Demo](https://startup-website-8faj.onrender.com)
 
 ## 🚀 Live Demo
 🔗 [Watch Loom Video](https://recipe-website-6k81.onrender.com)
