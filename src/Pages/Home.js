@@ -1,3 +1,4 @@
+import React from "react";
 import HeroSection from "../Components/HeroSection";
 import Patnerships from "../Components/Partnerships";
 import Lorem from "../Components/Lorem";
