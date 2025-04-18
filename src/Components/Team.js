@@ -1,5 +1,4 @@
 import React from "react";
-
 import Peg from "../Images/Peg Lagge.svg";
 import Richard from "../Images/Richar Guerra.svg";
 import ALex from "../Images/Alex Stolz.svg";

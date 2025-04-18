@@ -1,5 +1,4 @@
 import React from "react";
-
 import grouphome from '../Images/Group-home.svg';
 import './HeroSection.css';
 

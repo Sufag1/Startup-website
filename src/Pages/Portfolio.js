@@ -1,5 +1,4 @@
 import React from "react";
-
 import landingpage from "../Images/Landin page.svg";
 import webpage from "../Images/Web page.svg";
 import rocket from "../Images/Rocket.svg";
