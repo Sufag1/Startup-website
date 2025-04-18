@@ -105,10 +105,8 @@
 
 .team-member h2, .team-member p {
     text-align: justify;
-    padding-left: 40px;
     padding-bottom: 20px;
 }
-
 
 
 @media (min-width: 1024px) {
@@ -138,4 +136,10 @@
         display: inline;
         padding-left: 0px;
     }
+
+    .team-member {
+        width: 500px;
+        padding: 0px 20px;
+    }
+    
 }

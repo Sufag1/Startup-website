@@ -11,7 +11,7 @@ import "./Partnerships.css";
 const Patnerships = () => {
     return (
         <>
-        <div className="partneships">
+        <div className="partnerships">
             <div className="partnership-texts">
                 <h5>PARTNERS</h5>
                 <h3>Lorem Ipsum Dolor</h3>

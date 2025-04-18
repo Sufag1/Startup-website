@@ -1,5 +1,5 @@
 import HeroSection from "../Components/HeroSection";
-import Patnerships from "../Components/Patnerships";
+import Patnerships from "../Components/Partnerships";
 import Lorem from "../Components/Lorem";
 import Mansits from "../Components/Man";
 import Team from "../Components/Team";

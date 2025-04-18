@@ -1,3 +1,58 @@
+# Startup-website
+
+# Startup Responsive website
+
+A **startup website** is a modern, visually engaging site designed to showcase a startup company's brand, mission, products, or services. It typically includes:
+
+- **Hero section** with a bold headline and call-to-action  
+- **About section** explaining what the startup does  
+- **Features or services** highlighting what makes it unique  
+- **Team section** introducing key members  
+- **Testimonials or client logos** for credibility  
+- **Contact form or sign-up section** to capture leads  
+
+The goal is to **attract interest, build trust, and convert visitors into customers or investors**. It's often clean, responsive, and built with tools like React, Next.js, or WordPress.
+
+## 🚀 Live Demo
+🔗 [View Live Demo](https://recipe-website-6k81.onrender.com)
+
+## 🚀 Live Demo
+🔗 [Watch Loom Video](https://recipe-website-6k81.onrender.com)
+
+
+---
+
+## 🎯 Features
+✅ **Component-Based Structure (React)**  
+✅ **Routing (react-router-dom)**   
+✅ **CSS Styling**.  
+✅ **Pages and Layouts**  
+✅ **Performance Reporting (web vitals package)** 
+✅ **Mobile-friendly & responsive UI.**  
+
+
+---
+
+## 🛠️ Technologies Used
+- **HTML**
+- **CSS** (Flexbox & Responsive Design)
+- **JavaScript (ES6+)**
+- **React** 
+- **Project Structure** 
+- **Tooling & Build** 
+
+
+---
+📜 License
+This project is open-source under the MIT License.
+
+👨‍💻 Author
+Developed by Farouq Abubakar
+💌 Contact me at farouqabubakar99@gmail.com
+- **Live Demo Link**  (https://recipe-website-6k81.onrender.com)
+- **GitHub Repo Link** (https://github.com/Sufag1/Recipe-website.git)   
+- **Author Info** → Farouq Abubakar, Sufag1, and farouqabubakar99a@gmail.com.  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
