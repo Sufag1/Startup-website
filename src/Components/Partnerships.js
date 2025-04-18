@@ -1,3 +1,5 @@
+import React from "react";
+
 import google from '../Images/Google1.svg';
 import facebook from '../Images/Facebook.svg';
 import microsoft from '../Images/Microsoft.svg';

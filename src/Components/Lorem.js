@@ -1,3 +1,5 @@
+import React from "react";
+
 import group2 from '../Images/Group2-img.svg';
 import "./Lorem.css";
 

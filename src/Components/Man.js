@@ -1,3 +1,5 @@
+import React from "react";
+
 import mansits from "../Images/Man sitting.svg";
 import "./Man.css";
 
