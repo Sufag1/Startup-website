@@ -53,6 +53,16 @@
 }
 
 
+@media (min-width: 768px) {
+    .portfolio-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 55px;
+    }
+}
+
+
 @media (min-width: 1024px) {
 
     .portfolio-img {

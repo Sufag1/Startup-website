@@ -10,7 +10,8 @@
 
 
 .mansits-texts{
-    padding: 50px 20px 0px 30px;
+    width: 335px;
+    margin: 0 auto;
 }
 
 .mansits-texts p {
@@ -28,14 +29,31 @@
     width: 170px;
     height: 48px;
     border-radius: 5px;
+    margin-left: 0px;
     font-size: 20px;
-    margin-top: 16px;
+    margin-top: 25px;
     border: none;
     background-color: black;
+    margin-bottom: 40px;
     color: #FFFFFF;
-    margin-left: 40px;
     
 }
+
+@media (min-width: 768px) {
+   .mansits {
+    max-width: 1175px;
+    margin: 0px ;
+   }
+
+   
+
+   
+
+    
+
+    
+}
+
 
 
 @media (min-width: 1024px) {
@@ -43,13 +61,26 @@
     .mansits {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+        
 
+    }
+
+    .mansits-texts {
+        width: 470px;
+        text-align: start;
     }
 
     .mansits-text-btn-div {
         grid-column: 1;
         grid-row: 1;
-        margin-left: 100px;
+        max-width: 470px;
+        margin: 0 auto;
+    }
+
+    .mansits-button {
+        margin-left: 0px;
+
     }
 
     .mansits-img {
@@ -58,5 +89,6 @@
 
     .mansits-button-div {
         grid-column: 1;
+        margin-left: 25px;
     }
 }

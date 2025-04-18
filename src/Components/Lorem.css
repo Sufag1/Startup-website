@@ -9,7 +9,9 @@
 }
 
 .group-text{
-    padding: 50px 20px 0px 30px;
+
+    width: 335px;
+    margin: 0 auto;
 }
 
 .group-text p {
@@ -37,7 +39,7 @@
     width: 170px;
     height: 48px;
     border-radius: 5px;
-    margin-left: 30px;
+    margin-left: 0px;
     font-size: 20px;
     margin-top: 25px;
     border: none;
@@ -86,7 +88,12 @@
 
     .lorem-button-div {
         grid-column: 2;  
-        margin-top: -180px;      
+        margin-top: -180px;
+        margin-left: 140px;
+    }
+
+    .lorem-button {
+        margin-left: 0px;
     }
 
     

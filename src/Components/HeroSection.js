@@ -16,9 +16,10 @@ const HeroSection = () => {
                 <h5>WELCOME</h5>
                 <h3>Lorem ipsum dolor sit amet consectetur </h3>
                 <p>Lorem ipsum, dolor sit amet consectetur <br />adipisicing elit. Suscipit nemo hic quos, ab, <br />dolor aperiam nobis cum est eos error <br />ipsum, voluptate culpa nesciunt delectus <br />iste?</p>
+                <button className='hero-button'>Explore</button>
             </div>
 
-            <button className='hero-button'>Explore</button>
+            
 
 
         </section>

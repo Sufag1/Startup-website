@@ -1,17 +1,22 @@
 .partnerships {
     background-color: #FFFFFF;
-    padding: 20px;
+    padding: 30px;
+    margin: 0 auto;
 
 }
 
 .partnership-texts {
     text-align: center;
     margin-bottom: 40px;
+    max-width: 335px;
+    margin: 0 auto;
 }
 
 .partnership-logos {
-    max-width: 200px;
+    width: 170px;
+    gap: 40px;
     margin: 0 auto;
+
     
 
 }
@@ -35,7 +40,7 @@
 }
 
 .learn-button-div {
-    max-width: 230px;
+    max-width: 200px;
     margin: 0 auto;
 }
 
@@ -61,7 +66,25 @@
 }
 
 
+@media (min-width: 768px) {
+    .partnerships {
+        padding: 50px 20px 0px 20px;
+    }
+
+    .partnership-texts {
+        max-width: 335px;
+        margin: 0 auto;
+    }
+}
+
+
 @media (min-width: 1024px) {
+    
+    
+    .partnerships {
+        background-color: #FFFFFF;
+    }
+
     .partnership-logos {
         display: flex;
         justify-content: center;
