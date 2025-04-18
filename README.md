@@ -17,7 +17,7 @@ The goal is to **attract interest, build trust, and convert visitors into custom
 ## 🚀 Live Demo
 🔗 [View Live Demo](https://startup-website-8faj.onrender.com)
 
-## 🚀 Live Demo
+## 🚀 Presentation link
 🔗 [Watch Loom Video](https://www.loom.com/share/804bbbe18ef446a281b95c8f0899899a?sid=1f782913-3c47-4d4a-b3b7-8edc751cc95f)
 
 
