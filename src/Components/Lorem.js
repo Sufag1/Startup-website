@@ -10,8 +10,8 @@ const lorem = () => {
         <div className="lorem-div">
             <div className="group-2">
                 <motion.img
-                    initial={{ opacity: 0, y: -50 }}   // Start hidden and up
-                    animate={{ opacity: 1, y: 0 }}      // Fade in and slide down
+                    initial={{ opacity: 0, y: -50 }}   
+                    animate={{ opacity: 1, y: 0 }}      
                     whileHover={{ scale: 1.1 }} // Enlarge on hover
                     transition={{ duration: 1, type: "spring", stiffness: 300 }}
                     src={group2} className="group-2-img"

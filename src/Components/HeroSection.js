@@ -11,8 +11,8 @@ const HeroSection = () => {
             <div className="hero-img">
             <motion.img
                 initial={{ opacity: 0, y: -50 }}   // Start hidden and up
-                animate={{ opacity: 1, y: 0 }}      // Fade in and slide down
-                whileHover={{ scale: 1.1 }} // Enlarge on hover
+                animate={{ opacity: 1, y: 0 }}    
+                whileHover={{ scale: 1.1 }} 
                 transition={{ duration: 1, type: "spring", stiffness: 300 }}
                 src={grouphome}
             />
