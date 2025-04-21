@@ -12,7 +12,7 @@ const lorem = () => {
                 <motion.img
                     initial={{ opacity: 0, y: -50 }}   
                     animate={{ opacity: 1, y: 0 }}      
-                    whileHover={{ scale: 1.1 }} // Enlarge on hover
+                    whileHover={{ scale: 1.1 }} 
                     transition={{ duration: 1, type: "spring", stiffness: 300 }}
                     src={group2} className="group-2-img"
 
