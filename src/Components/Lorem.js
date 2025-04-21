@@ -1,6 +1,7 @@
 import React from "react";
 import group2 from '../Images/Group2-img.svg';
 import "./Lorem.css";
+import {motion} from 'framer-motion';
 
 
 const lorem = () => {
@@ -8,7 +9,14 @@ const lorem = () => {
         <>
         <div className="lorem-div">
             <div className="group-2">
-                <img src={group2} alt="" className='group-2-img'/>
+                <motion.img
+                    initial={{ opacity: 0, y: -50 }}   // Start hidden and up
+                    animate={{ opacity: 1, y: 0 }}      // Fade in and slide down
+                    whileHover={{ scale: 1.1 }} // Enlarge on hover
+                    transition={{ duration: 1, type: "spring", stiffness: 300 }}
+                    src={group2} className="group-2-img"
+
+                />
             </div>
             <div className="group-text">
                 <h3>Lorem ipsum dolor sit amet consectetur </h3>

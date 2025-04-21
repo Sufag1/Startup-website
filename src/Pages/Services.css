@@ -1,0 +1,192 @@
+.service-div {
+    background: #FFFFFFFF;
+
+
+}
+
+
+.service-texts {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service-cards {
+    text-align: center;
+}
+
+
+.service-texts h5 {
+    color: #74C69D;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 5px;
+
+
+}
+
+
+
+.service-texts h3 {
+    color: #000000;
+    font-family: Crimson Text;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    
+}
+
+.service-texts p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 40px;
+
+}
+
+.service-card h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.service-card p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #21252980;
+
+}
+
+.service-card bold {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    color: #000000;
+    padding-top: 10px;
+
+}
+
+.month span {
+    position: relative;
+    top: -0.5em;
+    padding-left: 10px;
+}
+
+.service-card-list li {
+    display: flex;
+    justify-content: start;
+}
+
+.service-card-list li p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #212529;
+}
+
+.service-btn {
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    margin-left: 0px;
+    font-size: 20px;
+    margin-top: 25px;
+    border: none;
+    background-color: #212529;
+    margin-bottom: 40px;
+    color: #FFFFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.service-card-msg {
+    
+    width: 280px;
+    margin: 0 auto;
+}
+
+.service-card-list li {
+    width: 203px;
+
+}
+
+.service-card-list img {
+    margin-right: 10px;
+}
+
+
+.service-card {
+    width: 340px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 40px 0px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+
+}
+
+
+@media (min-width: 768px) {
+    .service-texts {
+        width: 410px;
+        margin: 0 auto;
+    }
+
+    .service-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+    }
+    
+
+}
+
+
+
+@media (min-width: 1024px) {
+    .service-texts {
+        width: 410px;
+        margin: 0 auto;
+}
+    .service-cards {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .service-cards {
+        width: 1227px;
+        margin: 0 auto;     
+    }
+
+    .service-texts p {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 125%;
+    }
+
+    .service-texts h3 {
+        font-family: Crimson Text;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 125%;
+
+    }
+
+}
