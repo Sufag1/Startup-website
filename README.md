@@ -30,6 +30,8 @@ The goal is to **attract interest, build trust, and convert visitors into custom
 ✅ **Pages and Layouts**  
 ✅ **Performance Reporting (web vitals package)** 
 ✅ **Mobile-friendly & responsive UI.**  
+✅ **Animation added Using Framer motion**  
+
 
 
 ---
