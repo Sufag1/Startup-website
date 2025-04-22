@@ -35,7 +35,6 @@ const Portfolio = () => {
                 </motion.h3>
 
                 <motion.p
-                    className="your-text-class"
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ amount: 0.5 }} 
