@@ -8,6 +8,7 @@
 .service-texts {
     text-align: center;
     padding-top: 20px;
+    overflow-x: hidden;
 }
 
 .service-cards {

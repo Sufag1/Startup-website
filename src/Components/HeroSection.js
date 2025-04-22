@@ -11,7 +11,7 @@ const HeroSection = () => {
             <div className="hero-img">
             <motion.img
                 initial={{ opacity: 0, y: -50 }}   
-                animate={{ opacity: 1, y: 0 }}    
+                whileInView={{ opacity: 1, y: 0 }}    
                 whileHover={{ scale: 1.1 }} 
                 transition={{ duration: 1, type: "spring", stiffness: 300 }}
                 src={grouphome}

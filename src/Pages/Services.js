@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../Components/Footer";
 import tick from "../Images/tick.svg";
 import "./Services.css";
+import {motion} from 'framer-motion';
 
 
 const Services = () => {
@@ -9,10 +10,33 @@ const Services = () => {
         <>
         <div className="service-div">
             <div className="service-texts">
-                <h5>PLANS</h5>
-                <h3>Our Services</h3>
-                <p>Lorem ipsum, dolor sit amet <br />consectetur
-                <br />adipisicing elit.</p>
+                <motion.h5
+                    initial={{ opacity: 0, x: 100 }}
+                    whileInView={{ opacity: 1, x: 0 }} 
+                    viewport={{ amount: 0.5 }}
+                    transition={{ duration: 1.9 }}
+                >
+                    PLANS
+                </motion.h5>
+
+                <motion.h3
+                    initial={{ opacity: 0, x: -100 }}
+                    whileInView={{ opacity: 1, x: 0 }} 
+                    viewport={{ amount: 0.5 }}
+                    transition={{ duration: 1.9 }}
+                >
+                    Our Services
+                </motion.h3>
+
+                <motion.p
+                    initial={{ opacity: 0, x: 100 }}
+                    whileInView={{ opacity: 1, x: 0 }} 
+                    viewport={{ amount: 0.5 }}
+                    transition={{ duration: 1.9 }}
+                >
+                    Lorem ipsum, dolor sit amet <br />consectetur
+                    <br />adipisicing elit.
+                </motion.p>
             </div>
 
             <div className="service-cards">

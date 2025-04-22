@@ -6,6 +6,7 @@
 
 .portfolio-texts {
     text-align: center;
+    overflow-x: hidden;
 }
 .portfolio-img {
     margin-top: 45px; 
@@ -69,6 +70,6 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
-        gap: 55px;
+        gap: 100px;
     }
 }

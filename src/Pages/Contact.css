@@ -1,5 +1,6 @@
 .contact-texts {
     text-align: center;
+    overflow-x: hidden;
 
 }
 
@@ -77,9 +78,53 @@ textarea {
     border-radius: 5px;
     border-width: 1px;
     background-color: #EEEEEE;
-
-
 }
+
+
+.contact-form {
+    position: relative;
+}
+
+.custom-alert-overlay {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.custom-alert {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 20px 30px;
+    border: 1px solid #c3e6cb;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #155724;
+    font-weight: bold;
+}
+
+.close-btn:hover {
+    color: #721c24;
+}
+
+
 
 @media (min-width: 768px) {
     .contact-texts h4 {
@@ -101,6 +146,10 @@ textarea {
     .contact-btn {
         width: 500px;
     }
+    .custom-alert-overlay {
+        width: 70%;
+        left: 15%;
+    }
 }
 
 
@@ -116,6 +165,12 @@ textarea {
             grid-row: 1;
             position: relative;
             top: 0.5rem;
+        }
+
+        .custom-alert-overlay {
+            width: 50%;
+            left: 25%;
+            height: 50%;
         }
 
 }
