@@ -1,13 +1,22 @@
 import React from "react";
 import mansits from "../Images/Man sitting.svg";
 import "./Man.css";
+import { motion } from "framer-motion";
 
 const Mansits = () => {
     return ( 
         <>
         <div className="mansits">
             <div className="mansits-img">
-                <img src={mansits} alt="" />
+                <motion.img
+                    src={mansits}
+                    alt="description"
+                    className="your-image-class"
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ amount: 0.5 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    />
             </div>
             <div className="mansits-text-btn-div">
                 <div className="mansits-texts">

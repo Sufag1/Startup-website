@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Startup-website
 
 # Startup Responsive website
@@ -15,10 +15,10 @@ A **startup website** is a modern, visually engaging site designed to showcase a
 The goal is to **attract interest, build trust, and convert visitors into customers or investors**. It's often clean, responsive, and built with tools like React, Next.js, or WordPress.
 
 ## 🚀 Live Demo
-🔗 [View Live Demo](https://startup-website-8faj.onrender.com)
+🔗 [View Live Demo](https://startup-website-8faj.onrender.com) 
 
 ## 🚀 Presentation link
-🔗 [Watch Loom Video](https://www.loom.com/share/804bbbe18ef446a281b95c8f0899899a?sid=1f782913-3c47-4d4a-b3b7-8edc751cc95f)
+🔗 [Watch Loom Video](https://www.loom.com/share/bf4ce82c2da54b34837a0726c4b89399?sid=c2aac0b4-5e0c-4024-bdbc-d488acc544b0)
 
 
 ---
@@ -30,6 +30,8 @@ The goal is to **attract interest, build trust, and convert visitors into custom
 ✅ **Pages and Layouts**  
 ✅ **Performance Reporting (web vitals package)** 
 ✅ **Mobile-friendly & responsive UI.**  
+✅ **Animation added Using Framer motion**  
+
 
 
 ---
@@ -94,10 +96,6 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 

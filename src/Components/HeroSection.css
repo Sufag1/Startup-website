@@ -5,7 +5,10 @@
 
 body {
     background-color: #74C69D;
-    
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-section {
@@ -16,6 +19,9 @@ body {
 
 .hero-img {
     text-align: center;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .hero-text {

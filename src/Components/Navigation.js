@@ -3,8 +3,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import start from "../Images/Start.png";
 import "./Navigation.css";
-
-
 const NavBar = () => {
 
     const [hambClicked, setHambClicked] = useState(false);

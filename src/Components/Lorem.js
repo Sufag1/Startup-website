@@ -1,6 +1,7 @@
 import React from "react";
 import group2 from '../Images/Group2-img.svg';
 import "./Lorem.css";
+import {motion} from 'framer-motion';
 
 
 const lorem = () => {
@@ -8,20 +9,35 @@ const lorem = () => {
         <>
         <div className="lorem-div">
             <div className="group-2">
-                <img src={group2} alt="" className='group-2-img'/>
+                <motion.img
+                    initial={{ opacity: 0, y: -50 }}   
+                    whileInView={{ opacity: 1, y: 0 }}      
+                    whileHover={{ scale: 1.1 }} 
+                    transition={{ duration: 1, type: "spring", stiffness: 300 }}
+                    src={group2} className="group-2-img"
+
+                />
             </div>
             <div className="group-text">
-                <h3>Lorem ipsum dolor sit amet consectetur </h3>
-                <p>Lorem ipsum, dolor sit amet consectetur <br />adipisicing elit. Suscipit nemo hic quos, ab, <br />dolor aperiam nobis cum est eos error <br />ipsum, voluptate culpa nesciunt delectus <br />iste?</p>
+                <motion.h3
+                    initial={{ x: -300, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    >
+                    Lorem ipsum dolor sit amet consectetur
+                </motion.h3>
+                <motion.p
+                    initial={{ x: -300, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    >
+                    Lorem ipsum, dolor sit amet consectetur <br />adipisicing elit. Suscipit nemo hic quos, ab, <br />dolor aperiam nobis cum est eos error <br />ipsum, voluptate culpa nesciunt delectus <br />iste?
+                </motion.p>
                 <button className='lorem-button'>Learn More</button>
             </div>
             <div className="lorem-button-div">
-                
             </div>
-            
-        </div>
-        
-               
+        </div>       
         </>
      );
 }
